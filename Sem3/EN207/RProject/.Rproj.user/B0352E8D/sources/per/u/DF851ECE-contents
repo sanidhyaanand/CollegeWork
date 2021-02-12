@@ -1,0 +1,12 @@
+H <- c(0, 4, 8, 12, 16, 20)
+y <- c(1012, 621, 286, 141, 104, 54)
+
+fit <- lm(log(y)~H)
+summary(fit)
+
+lny <- log(y)
+sum(H*H)
+sum(H)
+sum(lny)
+H*lny
+sum(H*lny)

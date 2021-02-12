@@ -1,0 +1,99 @@
+' Type a list of Flows, like this:
+'     SOURCE [AMOUNT] TARGET
+' Examples:
+
+Coal Imp [1268] Coal
+Coal Prod [1575] Coal
+Coal [62] Export
+Coal [240.1] Industry
+' Coal [0] Transport
+Coal [20.7] Residential
+Coal [0.88] Commercial and Public Services
+Coal [17.2] Other Uses
+Coal [2235] Power Station
+Coal [213] Oil Products
+
+Crude Oil Imp [3567.6] Crude Oil
+Crude Oil Prod [86.7] Crude Oil
+Crude Oil [4.44] Export
+Crude Oil [3649.86] Refineries
+Refineries [3339.22] Oil Products
+Refineries [310.64] Losses
+
+Oil Products Imp [1756.5] Oil Products
+Oil Products [843.5] Export
+Oil Products [48] Power Station
+Oil Products [448] International Bunkers
+Oil Products [8.12] Statistical Differences 2
+Oil Products [215] Own Use
+
+Oil Products [153.8] Industry
+Oil Products [2168.2] Transport
+Oil Products [427.3] Residential
+Oil Products [136.6] Commercial and Public Services
+Oil Products [645.2] Other Uses
+Oil Products [215] Own Use
+
+
+Nuclear [829] Power Station
+
+Natural Gas Imp [2953] Natural Gas
+Natural Gas Prod [219.3] Natural Gas
+Natural Gas [724] Power Station
+Statistical Differences 1 [109.85] Natural Gas
+
+Natural Gas [844] Industry
+Natural Gas [28.5] Transport
+Natural Gas [1035.76] Residential
+Natural Gas [498.35] Commercial and Public Services
+Natural Gas [86.54] Other Uses
+Natural Gas [65] Own Use
+
+Biomass/Waste Prod [1137.6] Biomass/Waste
+Biomass/Waste Imp [109] Biomass/Waste
+Biomass/Waste [107] Export 
+Biomass/Waste [1139.6] Biofuels
+
+Wind [396] S/H/W
+Solar [165] S/H/W
+Hydro [87] S/H/W
+S/H/W [32] Other Uses
+S/H/W [616] Power Station
+
+Electricity Imp [114.2] Electricity
+Power Station [2314.7] Electricity
+Power Station [2317] Power Losses
+
+Electricity [289.7] Export
+Electricity [830] Industry 
+Electricity [493.5] Commercial and Public Services
+Electricity [461.5] Residential
+Electricity [43.5] Transport
+Electricity [18] Other Uses
+Electricity [195] Own Use
+
+Biogas Prod [121.4] Biofuels
+
+Biofuels [607] Power Station
+Biofuels [113] Transport
+Biofuels [167] Industry
+Biofuels [349] Other Uses
+Biofuels [22] Own Use
+Biofuels [3] Statistical Differences 2
+
+Power Station [467] PS Heat
+PS Heat [191] Industry
+PS Heat [208] Other Uses
+PS Heat [68] Statistical Differences 2
+
+Statistical Differences 1 [39.7] Power Station
+Electricity [97.7] Statistical Differences 2
+Coal [54.12] Statistical Differences 2
+
+
+' After your Flows are entered, use the
+' controls below to customize your
+' diagram's appearance.
+
+' For even finer control over presentation,
+' see the Manual (linked above).
